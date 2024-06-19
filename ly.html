@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>旅游</title>
+</head>
+<style type="text/css">
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .box{
+        position: relative;
+       
+        width: 1000px;
+        height: 3000px;
+       
+        
+    }
+    ul{
+        margin-left: 107px;
+    }
+    li{
+        border: 4px solid antiquewhite;
+       
+        float:left;
+        margin: 20px 78px;
+    }
+    a{
+        
+       
+        text-align: center;
+        color: black;
+        text-decoration: none;
+
+    }
+    video{
+        background-color: antiquewhite;
+        position: absolute;
+        right: 10px;
+        top: 100px;
+        width: 1000px;
+        height: 300px;
+        
+    }
+    .bor{
+        
+        position: absolute;
+        top: 440px;
+        left: 0px;
+        width: 1000px;
+        height: 200px;
+        background-color: rgb(213, 190, 161);
+    }
+    .bos{
+        position: absolute;
+        top: 686px;
+        left: 0px;
+        width: 1000px;
+        height: 200px;
+        background-color: burlywood;
+    }
+    .boh{
+        position: absolute;
+        left: 0;
+        top: 931px;
+        width: 1000px;
+        height: 200px;
+        background-color: rgb(156, 142, 122);
+    }
+    
+    .tu1,.tu2,.tu3,.pt1,.pt2,.pt3,.w1,.w2,.w3{
+        margin: 10px;
+        width: 280px;
+        height: 150px;
+    }
+    
+    .bor1,.bor2,.bor3,.bos1,.bos2,.bos3,.boh1,.boh2,.boh3{
+        margin-left: 22px;
+        width: 300px;
+        height: 200px;
+        background-color: antiquewhite;
+        float: left;
+
+
+    }
+
+    
+    .bor1:hover,.bor2:hover,.bor3:hover,.bos1:hover,.bos2:hover,.bos3:hover,.boh1:hover,.boh2:hover,.boh3:hover{
+        border: 2px solid rgb(124, 132, 154);
+        
+        
+        transform: scale(1.005,1.005);
+        transition-property: border;
+
+    }
+    span{
+        background-color: rgb(229, 212, 190);
+        font-size: larger;
+        width: 1000px;
+        height: 37px;
+        color: rgb(168, 114, 95);
+       
+        text-align: center;
+    }
+    .s1{ position: absolute;   left: 0; top:408px;}   .s2{ position: absolute;   left: 0;    top:650px;} .s3{position: absolute;   left: 0;    top:897px;}
+
+    .bos11,.bos22,.bos33,.bor11,.bor22,.bor33,.boh11,.boh22,.boh33{
+        background-color:rgb(202, 141, 141);
+        position: absolute;
+        top: 3px;
+        left: 3px;
+        opacity: 0.6;
+        width: 280px;
+        height: 180px;
+        margin: 10px;
+        display: none;
+       
+        border-radius: 20%;
+    }
+    .ss1,.ss2,.ss3,.hh1,.hh2,.hh3,.r1,.r2,.r3{
+        display: none;
+        text-align: center;
+        font-size: 50px;
+
+        color: rgb(43, 30, 159);
+        font-family: "宋体";
+        position: absolute;
+        left: 60px;
+        bottom: 100px;
+    }
+    .bos1:hover .bos11,.bos2:hover .bos22,.bos3:hover .bos33,.bor1:hover .bor11,.bor2:hover .bor22,.bor3:hover .bor33,.boh1:hover .boh11,.boh2:hover .boh22,.boh3:hover .boh33{        
+        
+     display: block;
+        
+        
+    }
+   
+    .bos1:hover .ss1,.bos2:hover .ss2,.bos3:hover .ss3,.boh1:hover .hh1,.boh2:hover .hh2,.boh3:hover .hh3,.bor1:hover .r1,.bor2:hover .r2,.bor3:hover .r3{display: block;}
+</style>
+<body>
+    
+    <div class="box">
+        <h2 align="center">热门景点推荐</h2>
+        <ul>
+            <li><a href="#trap1">热门景点</a></li>
+            <li><a href="#trap1">小众景点</a></li>
+            <li><a href="#trap3">网红景点</a></li>
+        </ul>
+       
+   <video src="tu/vd.mp4" controls muted autoplay loop></video>
+
+   <span class="s1">热门景点</span>
+   
+   
+   <div id="trap1" class="bor">
+
+    <div class="bor1">
+    <img class="tu1" src="tu/11.png" alt="">
+    <a href="https://cn.yadingtour.com/"><div class="bor11"></div></a>
+            <p class="r1">稻城亚丁</p>
+    <p>最后一片净土#稻城亚丁</p>
+   </div>
+
+   <div class="bor2">
+    <img class="tu2" src="tu/22.png" alt="">
+    <a href="https://baike.baidu.com/item/%E8%A5%BF%E8%97%8F%E6%99%AF%E5%8C%BA/3557397?fr=ge_ala"> <div class="bor22"></div></a>
+            <p class="r2">西藏</p>
+    <p>灵魂圣地#西藏</p>
+   </div>
+
+   <div class="bor3">
+    <img class="tu3" src="tu/33.png" alt="">
+    <a href="https://baike.baidu.com/item/%E4%BA%91%E5%8D%97%E7%9C%81/18664752?fromtitle=%E4%BA%91%E5%8D%97&fromid=206207"> <div class="bor33"></div></a>
+            <p class="r3">云南</p>
+    <p>理想国之地——云南</p>
+   </div>
+
+    </div>
+
+    <span class="s2">小众景点</span>
+    <div  id="trap2" class="bos">
+        <div class="bos1">
+            
+            <img class="pt1" src="tu/2.1.png" alt="">
+            <a href="https://baike.baidu.com/item/%E5%8D%97%E6%B5%94%E5%8F%A4%E9%95%87/5041335?fromtitle=%E5%8D%97%E6%B5%94&fromid=19424029"><div class="bos11"></div></a>
+            <p class="ss1">南浔</p>
+        <p>百年历史古镇——南浔</p>
+        </div>
+
+        <div class="bos2">
+            <img class="pt2" src="tu/22.png" alt="">
+            <a href="https://baike.baidu.com/item/%E8%B4%B5%E5%B7%9E%E4%B9%8C%E6%B1%9F%E5%AF%A8%E5%9B%BD%E9%99%85%E6%97%85%E6%B8%B8%E5%BA%A6%E5%81%87%E5%8C%BA/59985386?fr=ge_ala"><div class="bos22"></div></a>
+            <p class="ss2">乌江寨</p>
+        <p>乌江寨|一半烟火，一般人间</p>
+        </div>
+
+        <div id="trap2" class="bos3">
+            <img class="pt3" src="tu/2.3.png" alt="">
+            <a href="https://baike.baidu.com/item/%E9%BB%84%E5%A7%9A%E5%8F%A4%E9%95%87%E9%A3%8E%E6%99%AF%E5%90%8D%E8%83%9C%E5%8C%BA?fromModule=lemma_search-box"><div class="bos33"></div></a>
+           <p class="ss3">黄姚古镇</p>
+        <p>找寻地理中的美.黄姚古镇</p>
+        </div>
+    </div>
+
+    <span class="s3">网红景点</span>
+    <div id="trap3" class="boh">
+        <div class="boh1">
+        <img class="w1" src="tu/3.1.png" alt="">
+        <a href="https://baike.baidu.com/item/%E6%96%B0%E7%96%86%E7%BB%B4%E5%90%BE%E5%B0%94%E8%87%AA%E6%B2%BB%E5%8C%BA/906636?fromtitle=%E6%96%B0%E7%96%86&fromid=132263"><div class="boh11"></div></a>
+            <p class="hh1">新疆</p>
+        <p>目光所及尽是诗画|新疆</p>
+    </div>
+
+    <div class="boh2">
+        <img class="w2" src="tu/3.2.png" alt="">
+       <a href="https://baike.baidu.com/item/%E9%9D%92%E5%B2%9B%E5%B8%82/785198?fromtitle=%E9%9D%92%E5%B2%9B&fromid=60244"><div class="boh22"></div></a> 
+            <p class="hh2">青岛</p>
+        <p>一半海城 一半海岛 青岛</p>
+    </div>
+
+    
+    <div class="boh3">
+        <img class="w3" src="tu/3.3.png" alt="">
+        <a href="https://baike.baidu.com/item/%E5%BB%B6%E5%90%89%E5%B8%82?fromtitle=%E5%BB%B6%E5%90%89&fromid=688920&fromModule=lemma_search-box"><div class="boh33"></div></a>
+            <p class="hh3">延吉</p>
+        <p>延吉——美食之都、浪漫边城</p>
+    </div>
+
+    </div>
+</div>
+</body>
+</html>

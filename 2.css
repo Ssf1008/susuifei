@@ -1,0 +1,225 @@
+body{
+    background-color: darkgoldenrod;
+}
+.div1{
+    width: 1500px;
+    height: 60px;
+    background-color: pink;
+    text-align: center;
+}
+.nav-a{
+    color: black;
+    text-decoration: none;
+    font-size: 40px;
+}
+.nav-a:hover{
+    color: cornflowerblue;
+    text-decoration: underline;
+}
+/* 超链接 */
+span{
+    color: red;
+    font-size: 15px;
+}
+.div2{
+    width: 1200px;
+    height: 900px;
+    display: none;
+    margin: 20px auto;
+    /* 隐藏盒子内容 */
+}
+
+dl{
+    float: left;
+    margin-left: 30px;
+}
+.dl5{
+    position: relative;
+    left: -830px;
+}
+.div-gd{
+    position: relative; left: 280px; top: -320px;
+} 
+/* 为定义列表的dd设置居中显示和整个列表设置左浮动 */
+.gd-bg1{
+    background-image: url(img/gd1.jpg);
+    background-size: 250px 250px;
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+}
+.gd-bg1:hover{
+    background-image: url(img/gd-bg.jpg);
+    transition-property: background-image;
+    transition-duration: 0.6s;
+}
+.gd-bg2{
+    background-image: url(img/gd4.jpg);
+    background-size: 250px 250px;
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+}
+.gd-bg2:hover{
+    background-image: url(img/gd-bg2.jpg);
+    transition-property: background-image;
+    transition-duration: 0.6s;
+}
+.gd-bg3{
+    background-image: url(img/gd5.jpg);
+    background-size: 250px 250px;
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+}
+.gd-bg3:hover{
+    background-image: url(img/gd-bg3.jpg);
+    transition-property: background-image;
+    transition-duration: 0.6s;
+}
+.gd-bg4{
+    background-image: url(img/gd8.jpg);
+    background-size: 250px 250px;
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+}
+.gd-bg4:hover{
+    background-image: url(img/gd-bg4.jpg);
+    transition-property: background-image;
+    transition-duration: 0.6s;
+}
+dt img:hover{
+    transform: scale(1.1,1.1);
+    transition-duration: 0.6s;
+}
+/* 为歌单设置样式 + 首页*/
+.ph-z{
+    width: 1200px;
+    height: 800px;
+    display: none;
+}
+.div3{
+    width: 700px;
+    height: 800px;
+    margin: 100px auto;
+    display: none;
+}
+.div4{
+    width: 700px;
+    height: 800px;
+    margin-left: 500px;
+}
+.video2{
+    width: 300px;
+    height: 600px;
+    margin-left: 30px;
+}
+.ph-zc{
+    width: 250px;
+    height: 600px;
+    border: 5px solid black;
+    margin-left: 50px;
+    float: left;
+}
+.ph-zc1{
+    width: 250px;
+    height: 600px;
+    border: 2px solid black;
+    position: relative; left: -328px; top: -335px;
+}
+.phb-dl{
+    position: relative; left: -30px; top: -15px;
+}
+.phb1{
+    width: 200px; height: 30px;
+    padding-left: 30px;
+    padding-top: 20px;
+    font-size: 20px; font-weight: bold;
+}
+.phb2{
+    width: 200px; height: 30px;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+.phb2:hover{
+    background-color: green;
+}
+/* 排行榜左侧盒子 */
+.phb-a{
+    color: black;
+    text-decoration: none;
+}
+.phb-li{
+    color: cornflowerblue;
+    text-decoration: none;
+}
+.phb-li:hover{
+    color: darkolivegreen;
+    text-decoration: none;
+}
+li{
+    font-size: 18px;
+    color: cornflowerblue;}
+    .one{background: white url(img/up.jpg) no-repeat right center content-box;
+        width:400px ;
+        height: 35px;
+       margin-bottom: 5px;
+       line-height: 35px;
+    }
+    .two{background: white url(img/down.jpg) no-repeat right center content-box;
+        /* background-color: rgba(10,10,10,0.1); */
+        width:400px ;
+        height: 35px;
+        margin-bottom: 5px;
+       line-height: 35px;
+    }
+    .li-h2{
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    /* ol{border: 1px solid grey;} */
+     ol{list-style-position: inside;
+        width: 250px;
+    height: 300px;
+    border: 1px solid white;
+    } 
+    /* 今日排行榜 */
+    .div5{
+        width: 1000px;
+        height: 800px;
+        /* border: 2px solid black; */
+        display: none;
+        margin: 0 auto;
+    }
+    .gs-div1{
+        width: 900px;
+        height: 300px;
+        /* border: 2px solid black; */
+        margin: 20px auto;
+        padding-left: 50px;
+    }
+    .gs-img{
+        border-radius: 0%;
+    }
+    .gs-img:hover{
+        border-radius: 50%;
+        transition-property: border-radius;
+        transition-duration: 0.4s;
+        transform: translate(20px,20px);
+    }
+    /* 歌手 */
+    .div6{
+        width: 400px;
+        height: 500px;
+        margin: 20px auto;
+        padding-left: 50px;
+        padding-top: 20px;
+        display: none;
+        border: 2px solid white;
+        background-color: pink;
+        /* background-size: 400px 500px; */
+    }
+:target{display: block;}  
+/* 显示盒子内容 */

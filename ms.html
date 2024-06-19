@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>美食网</title>
+</head>
+<style type="text/css">
+    .box{
+       
+       font-family: "宋体";
+        width: 1000px;
+        height: 3000px;
+       
+        
+    }
+    ul{
+        position: absolute;
+        top: 0px;
+        left: 20px;
+
+        margin-left: 107px;
+    }
+    li{
+        
+        
+        float:left;
+        margin: 20px 78px;
+    }
+    a{
+        
+       
+        text-align: center;
+        color: white;
+        text-decoration: none;
+        font-family: "宋体";
+font-size: large;
+
+    }
+    
+    .fm{
+        width: 1000px;
+        height: 300px;
+       position: absolute;
+       top: 22px;
+       left: 0;
+    }
+    .b1{
+        width: 1000px;
+        height: 330px;
+        position: absolute;
+        top: 350px;
+        left: 0;
+        background-color: burlywood;
+    }
+    .s2{
+        width: 1000px;
+        height: 40px;
+        background-color: coral;
+        position: absolute;
+        top: 704px;
+        left: 7px;
+        font-size: larger;
+        text-align: center;
+        padding-top: 10px;
+        
+    }
+    .b2{
+        width: 1080px;
+        height: 370px;
+        position: absolute;
+        top: 780px;
+        left: 0;
+    }
+    .b1 img{
+        margin-left: 40px;
+    }
+    
+    .b21,.b22,.b23,.b24{
+         width:245px;
+          height:350px;
+          float: left;
+          margin-left: 8px; 
+
+    }
+    .s1{
+        width: 1000px;
+        height: 200px;
+        position: absolute;
+        top: 330px;
+        left: 470px;
+        color: black;
+        font-family: "宋体";
+
+    }
+    .t11,.p11,.f11,.d11{
+        width: 210px;
+        height: 240px;
+        background-color: red;
+        opacity: 0.4;
+       
+animation-name: mymove;
+animation-duration: 0.8s;
+animation-fill-mode: forwards;
+        display: none;
+    }
+    .t11{ position: absolute;
+       bottom: 20px;
+        left: 18px;}
+        .p11{ position: absolute;
+       bottom: 20px;
+        left: 270px;}
+        .p1{
+            position: absolute;
+        top: 100px;
+        left: 30px;
+        }
+        .p2{
+            position: absolute;
+        top: 100px;
+        left: 315px;
+        
+        }
+        .f11{
+            position: absolute;
+       bottom: 20px;
+        right: 339px;
+        }
+        .p3{
+            position: absolute;
+            top:100px ;
+        left: 550px;
+        }
+        .d11{
+            position: absolute;
+       bottom: 20px;
+        right: 90px;
+        }
+        .p4{
+            position: absolute;
+            top:100px ;
+        right: 96px;
+        }
+    @keyframes mymove{
+        from{transform: translate(0,-15px); }
+        to{transform: translate(0,-30px);}
+    }
+    .p1,.p3,.p2,.p4{
+        text-align: center;
+        font-family: "宋体";
+        font-size: 45px;
+        
+        display: none;
+    }
+    .b21:hover .t11,.b21:hover .p1,.b22:hover .p2,.b23:hover .p3,.b24:hover .p4,.b22:hover .p11,.b23:hover .f11,.b24:hover .d11{
+display: block;
+
+    }
+
+.s3{
+    width: 1000px;
+    height: 50px;
+    position: absolute;
+    top: 1150px;
+    left: 20px;
+    text-indent: 25px;
+    font-size: 18px;
+    color: rgb(163, 63, 63);
+}
+
+
+.cul1{
+width: 1000px;
+height: 350px;
+position: absolute;
+top: 1180px;
+left: 10px;
+padding: 10px;
+}
+.cul2{
+    width: 1000px;
+height: 350px;
+position: absolute;
+top: 1530px;
+left: 10px;
+padding: 10px;
+}
+.sc1,.sc2{
+    
+    width: 75px;
+    height: 25px;
+    background-color: red;
+    color: white;
+    font-family: "黑体";
+    
+
+    
+}
+.sc1{
+    
+    position: absolute;
+    top: 280px;
+    left: 60px;
+}
+.sc2{
+    position: absolute;
+    top:280px ;
+    right: 10px;
+}
+
+.yy{
+    width: 1000px;
+    height: 500px;
+    position: absolute;
+    top: 1900px;
+    left: 5px;
+
+}
+
+.y1{
+    width: 1000px;
+    height: 70px;
+    position: absolute;
+    top: 5px;
+    left: 0;
+    text-align: center;
+    font-size: 30px;
+
+}
+
+.y11,.y12,.y13{
+    width: 300px;
+    height: 320px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 40px;
+    border: 5px solid rgb(163, 127, 127);
+
+}
+.yy img{
+    width: 285px;
+    height: 280px;
+
+}
+
+.yy p{
+    position: absolute;
+    top: 310px;
+    
+    text-align: center;
+    font-size: 20px;
+    color: black;
+}
+a1{
+    color: red;
+}
+</style>
+<body>
+    <div class="box">
+        <img src="tu/m1.1.png" class="fm" alt="">
+        
+        <ul>
+            <li><a href="#trap1">特色美食</a></li>
+            <li><a href="#trap2">美食故事</a></li>
+            <li><a href="#trap3">养生美食</a></li>
+        </ul>  
+        <div id="trap1" >
+        <div  class="b1">
+            <a href="https://baike.baidu.com/item/%E8%9E%BA%E8%9B%B3%E7%B2%89/1455359?fr=ge_ala"><img  src="tu/b1.1.jpg" alt="" width="320px" height="310px"></a>
+           
+           <a href="https://baike.baidu.com/item/%E8%9E%BA%E8%9B%B3%E7%B2%89/1455359?fr=ge_ala"><img src="tu/b1.2.jpg" alt="" width="250px" height="170px"></a>
+           <a href="https://baike.baidu.com/item/%E8%9E%BA%E8%9B%B3%E7%B2%89/1455359?fr=ge_ala"><img src="tu/b1.3.jpg" alt="" width="250px" height="170px"></a>
+           
+        </div>  
+        <span class="s1">
+           <h2>螺蛳粉</h2>
+            <p>螺蛳粉的粉</br>需凉水熬煮</br>吃起来才劲道爽滑</br>熬煮沸腾时是酸笋、腐竹、花生登场的时候</p>
+        </span>
+        <span class="s2">特色推荐</span>
+        <div class="b2">
+            <div class="b21">
+                <a href="https://baike.baidu.com/item/%E9%BA%BB%E8%BE%A3%E5%85%94%E5%A4%B4/6369759?fr=ge_ala"><img src="tu/tt.jpg" alt="" width="245px" height="350px"></a> 
+                    <div class="t11"></div>
+                    <p class="p1">麻辣兔头</p>
+                
+            </div>
+
+            <div class="b22">
+                <a href="https://baike.baidu.com/item/%E4%B8%9C%E5%9D%A1%E8%82%89/120740?fromModule=lemma_search-box"><img src="tu/dp.jpg" alt="" width="245px" height="350px"></a>
+                <div class="p11"></div>
+                <p class="p2">东坡肉</p>
+            </div>
+            
+            <div class="b23">
+                <a href="https://baike.baidu.com/item/%E5%A4%AB%E5%A6%BB%E8%82%BA%E7%89%87?fromModule=lemma_search-box"><img src="tu/fq.jpg" alt="" width="245px" height="350px"></a>
+                <div class="f11"></div>
+                <p class="p3">夫妻肺片</p>
+            </div>
+            
+            <div class="b24">
+                <a href="https://baike.baidu.com/item/%E9%BA%BB%E5%A9%86%E8%B1%86%E8%85%90/30888"><img src="tu/df.jpg" alt="" width="245px" height="350px"></a>
+                <div class="d11"></div>
+                <p class="p4">麻婆豆腐</p>
+            </div>
+           
+        </div>
+    </div> 
+
+    <div id="trap2" class="xx">
+        <div class="s3"><span>美食故事</span><hr color="coral" size="3px" /></div>
+        <div class="cul1"><img src="tu/c1.jpg" alt="" width="500" height="300" vspace="10" hspace="10" align="right"><b>宫保鸡丁的来历</b></br>
+            宫保鸡丁的来历与清朝咸丰时期的进士丁宝桢有关。丁宝桢是贵州平远人，清咸丰三年中进士，曾任山东巡抚，1876年升四川总督，封太子少保。据说，丁宝桢从小喜欢吃用鸡肉和辣椒等爆炒的菜肴。他在山东任职之时，就经常命家厨制作“酱爆鸡丁”。当上四川总督后，他又特别喜欢天府花生、嫩鸡肉、辣椒制作的炒鸡。每次设宴，他定会让厨师烹饪此菜。即使是回贵州故乡省亲，他也吩咐家人：“不必破费，只上炒鸡即可。”后来，丁宝桢爱吃炒鸡丁的习惯被人们所熟知，当时人们尊称他为“宫保”，加上他“太子少保”的头衔，人们便把丁宝桢爱吃的这道菜称作“宫保鸡丁”。此菜在清末民初，风靡了全中国，四川、贵州、山东都把这道菜列入了本地菜系。
+        <span class="sc1"><a href="https://baike.baidu.com/item/%E5%AE%AB%E4%BF%9D%E9%B8%A1%E4%B8%81/1570?fromModule=lemma_search-box">了解更多</a></span>
+        </div>
+    
+    <div class="cul2"><img src="tu/c2.jpg" alt="" width="500" height="300" align="left" hspace="10" vspace="10"><b>松鼠鳜鱼的来历</b></br>
+        春秋时期，吴王僚专横无道，举国臣民非常痛恨他。他的堂兄公子光便有意要除掉吴王僚。这时，伍子胥便将名士专诸推荐给公子光。公子光深知吴王僚爱食炙鱼，就派专诸到太湖边向名厨专门求教制作炙鱼的技术。数月后，专诸学成回来，公子光便设计宴请吴王僚，命专诸想办法在宴会那天，将匕首藏在炙鱼腹中敬献，伺机刺杀吴王僚。专诸欣然领命。只是，
+        在鱼腹中藏匕首，而又不能露出破绽，确实难度不小。为此，专诸着实动了一番脑筋。他先将鱼背上的肉切出花纹，入油锅一炸，鱼的外形就模糊不清了。端上桌来，很难看出其中暗藏的匕首。这就是后人所谓的“鱼藏剑”。果然，公子光刺杀吴王僚取得成功，自立为王，独霸一方，即历史上的吴王阖闾。于是，炙鱼也随之出了名。
+    <span class="sc2"><a href="https://baike.baidu.com/item/%E6%9D%BE%E9%BC%A0%E9%B3%9C%E9%B1%BC/2245878?fromModule=lemma_search-box">了解更多</a></span>
+    </div>
+</div>
+
+<div id="trap3" class="yy">
+    <span class="y1">——养生美食——</span>
+    <div class="y11">
+        <a href="https://baike.baidu.com/item/%E8%8B%A6%E7%93%9C%E9%BB%84%E8%B1%86%E6%8E%92%E9%AA%A8%E6%B1%A4?fromModule=lemma_search-box"><img src="tu/yt1.jpg" alt="">
+        <p>苦瓜黄豆排骨汤</p></a>
+    </div>
+    <div class="y12">
+        <a href="https://baike.baidu.com/item/%E5%86%AC%E7%93%9C%E8%96%8F%E7%B1%B3%E8%80%81%E9%B8%AD%E6%B1%A4?fromModule=lemma_search-box"><img src="tu/yt2.jpg" alt="">
+        <p>冬瓜薏米老鸭汤</p></a>
+    </div>
+    <div class="y13"><a href="https://baike.baidu.com/item/%E6%B2%99%E8%91%9B%E6%8E%92%E9%AA%A8%E6%B1%A4?fromModule=lemma_search-box"><img src="tu/yt3.jpg" alt="">
+    <p>沙葛排骨汤</p>
+    </a></div>
+    
+</div>
+    
+    </div>
+   
+</body>
+</html>

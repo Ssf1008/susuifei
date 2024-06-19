@@ -1,0 +1,99 @@
+*{list-style: none; outline: none;}
+body{
+    background-color: darksalmon;
+}
+a:link,a:visited{
+    color: blue;
+    text-decoration: none;  
+} 
+a:hover{
+    color: cornflowerblue;
+    text-decoration: underline;}
+/*   给超链接设置样式 */
+/* .div6{
+    width: 100px;
+    height: 30px;
+    background-color:rgba(25, 22, 0, 0.482) ;
+   text-align: center;
+}
+给返回顶部按钮设置样式 */
+.div1{
+    width: 1200px;
+    height: 1010px;
+    margin: 0 auto;
+}
+.p1{
+    line-height: 35px;
+    font-family: "宋体";
+    font-weight: bold;
+    color: brown;
+}
+audio{
+    position: relative;
+    left: 420px;
+    top: 0px;
+}
+video{
+    width: 1200px;
+    height: 300px;
+    }
+    /* 首页 */
+    .p2{
+        line-height: 35px;
+    font-family: "宋体";
+    font-weight: bold;
+    color: blanchedalmond;
+    }
+    .div2{
+        width: 1200px;
+        height: 320px;
+          /* border: 2px solid black;    */
+        margin: 0 auto;
+    }
+    /* 剧情介绍 */
+    .div3{
+        width: 1200px;
+        height: 1300px; 
+        margin: 0 auto;
+    }
+    .p3{
+        font-family: "宋体";
+        font-size: 20px; font-weight: bold;
+    }
+    span{
+        color: red;
+        text-decoration: underline;
+    }
+
+    /* 演员表 */
+    .div4{
+        width: 1200px;
+        height: 700px; 
+        margin: 0 auto;
+    }
+    .div7{
+        width: 1000px;
+        height: 700px; 
+        margin: 0 auto;
+    }
+    dl{
+        float: left;
+        margin-left: 50px;
+    }
+    dt:hover{
+        transform: scale(1.1,1.1);
+        transition-duration: 2s;
+    }
+    /* 获奖情况 */
+    .img1{
+        width: 100px;
+        animation-name: mymove;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+    }
+    @keyframes mymove{
+        from{transform: translate(0px) rotateY(0deg);}
+        50%{transform: translate(1000px) rotateY(0deg);}
+        51%{transform: translate(1000px) rotateY(180deg);} 
+        to{transform: translate(0px) rotateY(180deg);} 
+    }
